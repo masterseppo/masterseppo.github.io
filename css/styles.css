@@ -5,7 +5,11 @@ body {
 h1 {font-size: 20px;}
 p {font-size: 12px;
 color: green;}
-
+.myDiv{
+  border-style: 30px dotted;
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;}
 ol {list-style-type: lower-alpha;}
 ul {list-style-type: square;}
 

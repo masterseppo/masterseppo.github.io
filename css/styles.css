@@ -6,7 +6,7 @@ h1 {font-size: 20px;}
 p {font-size: 12px;
 color: green;}
 .myDiv 
-div {border-style: 2px dotted;
+div {border-style: 20px dotted;
     width: 100px;
     height: 100px;
   border-color: hotpink;}

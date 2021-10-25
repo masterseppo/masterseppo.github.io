@@ -8,7 +8,7 @@ color: green;}
 .myDiv 
 div {border-style: 20px dotted;
     width: 100px;
-    height: 100px;
+    height: 300px;
   border-color: hotpink;}
 ol {list-style-type: lower-alpha;}
 ul {list-style-type: square;}

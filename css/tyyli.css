@@ -26,11 +26,21 @@ figure {margin-left: 0px;}
     text-align: center;
     font-size: 35px;
     color: white;}
-    ul{background-color: silver;
-        padding: 30px;
-        text-align: center;
-        font-size: 35px;
-        color: white;
+    section:{
+        content: "";
+        display: table;
+        clear: both;
+      }
+      .article {
+        float: left;
+        padding: 20px;
+        width: 70%;
+        background-color: #f1f1f1;
+      }
+ul{list-style-type: none;}
+      
+      
+    
 
-    }
+    
     

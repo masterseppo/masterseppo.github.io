@@ -40,6 +40,20 @@ figure {margin-left: 0px;}
         color: white;
       }
 ul{list-style-type: none;}
+
+#aside{background-color: skyblue;
+    float: left;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;}
+
+    .footer {
+        background-color: #777;
+        padding: 10px;
+        text-align: center;
+        color: white;
+      }
+
       
       
     

@@ -1,0 +1,19 @@
+body {background-color: mistyrose;}
+h1 {border-style: solid;
+   margin-left: 600px; 
+   margin-right: 920px;
+   
+}
+h2 {border-style: double;
+    margin-left: 600px;
+    margin-right: 800px;
+}
+p {background-color: olive;
+border-radius: 25px; 
+width: 200px;
+padding: 15px;   
+}
+figure {margin-left: 0px;}
+.header{
+    
+}

@@ -1,9 +1,10 @@
-body {background-color: mistyrose;}
-h1 {border-style: solid;
-   margin-left: 600px; 
-   margin-right: 920px;
+body {background-color: mistyrose;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;}
+
    
-}
+
 h2 {border-style: double;
     margin-left: 600px;
     margin-right: 800px;
@@ -14,6 +15,8 @@ width: 200px;
 padding: 15px;   
 }
 figure {margin-left: 0px;}
-.header{
-    
-}
+#header{background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;}

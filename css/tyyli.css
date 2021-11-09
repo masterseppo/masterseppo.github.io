@@ -20,3 +20,17 @@ figure {margin-left: 0px;}
     text-align: center;
     font-size: 35px;
     color: white;}
+.nav{
+    background-color: silver;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;}
+    ul{background-color: silver;
+        padding: 30px;
+        text-align: center;
+        font-size: 35px;
+        color: white;
+
+    }
+    

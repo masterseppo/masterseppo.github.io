@@ -15,7 +15,7 @@ width: 200px;
 padding: 15px;   
 }
 figure {margin-left: 0px;}
-#header{background-color: #666;
+.header{background-color: #666;
     padding: 30px;
     text-align: center;
     font-size: 35px;
@@ -39,7 +39,7 @@ figure {margin-left: 0px;}
       }
 ul{list-style-type: none;}
 
-#aside{background-color: skyblue;
+#aside{background-color: steelblue;
     float: left;
     padding: 30px;
     text-align: center;

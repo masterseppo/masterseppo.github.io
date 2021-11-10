@@ -33,7 +33,8 @@ figure {margin-left: 0px;}
         font-size: 35px;
         color: white;
       }
-      ul{list-style-type: none;}
+      ul{list-style-type: none;
+                         } 
 
 #aside{background-color: steelblue;
     float: left;
@@ -64,6 +65,7 @@ figure {margin-left: 0px;}
   
   /* Style the list inside the menu */
   #nav ul {
+      float: left;
     list-style-type: none;
     padding: 0;
   }

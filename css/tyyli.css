@@ -26,7 +26,7 @@ figure {margin-left: 0px;}
     text-align: center;
     font-size: 35px;
     color: white;}
-    section:{
+    section{
         content: "";
         display: table;
         clear: both;

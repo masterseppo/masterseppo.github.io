@@ -54,7 +54,6 @@ figure {margin-left: 0px;}
         color: white;
       }
 
-      /* Create two columns/boxes that floats next to each other */
 #nav {
     float: left;
     width: 20%;
@@ -63,7 +62,7 @@ figure {margin-left: 0px;}
     padding: 20px;
   }
   
-  /* Style the list inside the menu */
+
   #nav ul {
       float: left;
     list-style-type: none;
@@ -73,19 +72,19 @@ figure {margin-left: 0px;}
   #article {
     float: right;
     padding: 20px;
-    width: 75%;
+    width: 73%;
     height: 700px;
     background-color: #f1f1f1;
     
   }
   
-  /* Clear floats after the columns */
+ 
   #section::after {
     content: "";
     display: table;
     clear: both;
 
-
+   
 
       
       

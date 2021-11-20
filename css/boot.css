@@ -1,11 +1,12 @@
 
 
 
-#header{
-    font-size: 1000px;     
+#header{   
+    font-size: 100px; 
     text-align: center;
-    padding-top: 100px;
+    padding-top: 80px;
+    padding-bottom: 30px;
 }
 h1{
-    font-size: 10%;
+    font-size: 90%;
 }

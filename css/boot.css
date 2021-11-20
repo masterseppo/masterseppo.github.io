@@ -13,10 +13,13 @@ h1{
 }
 .col-border{
     content: "";
+    position: relative;
     top: 0;
     bottom: 0;
-    border-left: 2px black;
-    border-right:2px black;
+    
+    border-right: solid 2px black;
+    border-left: solid 2px black;
+    
 }
 
 

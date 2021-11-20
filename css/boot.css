@@ -11,5 +11,12 @@ h1{
     font-size: 90%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.col-border{
+    content: "";
+    top: 0;
+    bottom: 0;
+    border-left: 2px black;
+    border-right:2px black;
+}
 
 

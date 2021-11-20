@@ -16,10 +16,16 @@ h1{
     position: relative;
     top: 0;
     bottom: 0;
-    
     border-right: solid 2px black;
     border-left: solid 2px black;
-    
+    }
+#footer{
+    text-align: center;
+    padding-top: 800;
+    padding-bottom: 50;
+    border-top: dotted 2px grey ;
 }
+
+
 
 

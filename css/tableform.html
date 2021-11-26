@@ -4,19 +4,87 @@
         <link rel="stylesheet" type="text/css" href="css/styletable.css">
         <meta charset="utf-8"/>
         <title>Title</title>
+        <style>
+            table, th, td {
+              border: 1px solid black;
+            }
+            </style>
      </head>
      <body>
         <table>
             <caption>Monthly savings</caption>
             <tr>
-              <th>Month</th>
-              <th>Savings</th>
+              <th colspan="3" rowspan="5">Month Savings</th>
             </tr>
             <tr>
               <td>January</td>
               <td>$100</td>
+              <td>kolmas</td>
+            </tr>
+            <tr>
+                <td>February</td>
+                <td>$50</td>
+                <td>lisää</td>
+            </tr>
+            <tr>
+                <td>March</td>
+                <td>$500</td>
+                <td>näin</td>
+            </tr>
+            <tr>
+                <td>April</td>
+                <td>$420</td>
+                <td>nuin</td>
             </tr>
           </table>
-         
+          <h2>Tekstikentät</h2>
+          <form>
+            <label for="fname">Etunimi:</label><br>
+            <input type="text" id="fname" name="fname" value="John" required><br>
+            <label for="lname">Sukunimi:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe" required><br>
+            <label for="email">Sähköposti:</label><br>
+            <input type="text" id="email" name="email" value="sposti" required><br>
+          </form>
+          <br>
+          <label for="teksti">tekstikenttä:</label>
+            <textarea id="teksti" name="teksti" rows="4" cols="80">
+            Tässä tekstikenttä
+            </textarea>
+            <br><br>
+            <fieldset>
+                <legend>valitse numero</legend>
+            <form action="/action_page.php">
+                <input type="checkbox" id="1" name="1" value="yksi">
+                <label for="1"> Numero yksi</label><br>
+                <input type="checkbox" id="2" name="2" value="kaksi">
+                <label for="2"> Numero kaksi</label><br>
+                <input type="checkbox" id="3" name="3" value="kolme">
+                <label for="3"> Numero kolme</label><br><br>
+              </form>
+            </fieldset>
+              <br><br>
+              <fieldset>
+                <legend>ja sitten auto</legend>
+              <form action="/action_page.php">
+                
+                    
+                    <select id="auto" name="auto">
+                  <option value="volvo">Volvo</option>
+                  <option value="saab">Saab</option>
+                  <option value="fiat">Fiat</option>
+                  <option value="audi">Audi</option>
+                </select>
+              </form>
+            </fieldset>
+              <br>
+              <form action="/action_page.php">
+                <label for="uusi">Uusi käyttäjä:</label><br>
+                <input type="text" id="uusi" name="uusi" value="uusi" required>
+                <input type="submit">
+            
+            </form>
+
+
      </body>
 </html>

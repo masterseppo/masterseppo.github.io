@@ -4,5 +4,8 @@ table, th, td {
 
 body{
     background-color: lightgrey;
-    text-decoration: lime;
+    color: tomato;
+}
+.table{
+    border: 1px solid black;
 }

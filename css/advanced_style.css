@@ -1,0 +1,32 @@
+#box{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px blue;
+}
+h2{
+    text-shadow: 2px 2px crimson;
+}
+#tausta{
+    border: 2px black;
+    padding: 25px;
+    background-image: url(https://images.freeimages.com/images/large-previews/e71/frog-1371919.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: lawngreen;
+}
+a.one:hover{
+    color: red;
+}
+a.one{
+    color: black;
+    transition-duration: 1s;
+   }
+@media only screen and (max-width: 800px) {
+    body {
+      background-color: black;
+      color: white;
+    }
+    a.one{
+        color: white;
+    }
+  }

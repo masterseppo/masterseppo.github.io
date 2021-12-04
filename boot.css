@@ -16,6 +16,10 @@ h1{
     font-size: 170%;
     font-style: bold;
 }
+.vasen{
+    padding-left: 20px;
+    color: hotpink;
+}
 
 .col-border{
     content: "";

@@ -14,7 +14,9 @@ h1{
 
 #iso{
     font-size: 150%;
-    
+}
+.harmaa{
+    color: green;
 }
 .col-border{
     content: "";

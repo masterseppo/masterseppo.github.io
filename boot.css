@@ -12,8 +12,9 @@ h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.kontti{
-    align-content: center;
+#iso{
+    font-size: 150%;
+    
 }
 .col-border{
     content: "";

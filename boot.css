@@ -13,11 +13,10 @@ h1{
 }
 
 #iso{
-    font-size: 150%;
+    font-size: 170%;
+    font-style: bold;
 }
-.harmaa{
-    color: green;
-}
+
 .col-border{
     content: "";
     position: relative;
